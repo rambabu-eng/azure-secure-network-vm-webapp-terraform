@@ -51,6 +51,7 @@ azure-secure-network-vm-webapp-terraform/
 - Azure CLI installed
 - Bash Installed
 - Terraform Installed
+- SSH Key generated
 
 ## Security best practices followed
 - Network Security Groups with restricted inbound rules
