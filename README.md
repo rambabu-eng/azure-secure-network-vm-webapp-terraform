@@ -38,12 +38,28 @@ azure-secure-network-vm-webapp-terraform/
 │ ├── outputs.tf
 │ ├── provider.tf
 │ ├── terraform.tfvars
-│ └── modules/
-│ ├── network/
-│ ├── nsg/
-│ ├── vm/
-│ └── webapp/
+│ 
+├── .gitignore
+├── README.md
 │
 ├── .gitignore
 ├── README.md
+
+
+## Prerequisites
+- Azure Subscription
+- Azure CLI installed
+- Bash Installed
+- Terraform Installed
+
+## Security best practices followed
+- Network Security Groups with restricted inbound rules
+- Separation of public and private subnets
+- No hardcoded secrets in Terraform code
+- .terraform and state files excluded from Git
+- Infrastructure deployed using least-privilege principles
+
+## Cleanup resources
+- terraform destroy
+
 
